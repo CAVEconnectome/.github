@@ -59,15 +59,11 @@ This is a deprecated service for redirecting traffic to a google bucket which is
 https://github.com/seung-lab/middle_auth_proxy (not public repo)
 
 ## Access Tools
+
 ### CaveClient
 Python library for accessing various microservice endpoints. 
 Repo: https://github.com/seung-lab/CAVEclient
 Docs: https://caveclient.readthedocs.io/
-
-### CloudVolume
-Python library for accessing images, segmentation, meshes and skeletons from precomputed and CAVE (i.e. graphene protocol) sources. 
-Repo: https://github.com/seung-lab/cloud-volume
-Docs: https://github.com/seung-lab/cloud-volume/blob/master/README.md
 
 ### MeshParty
 Python library that wraps around cloudvolume to provide analysis and visualization functionality on top of meshes and skeleton.
@@ -78,6 +74,16 @@ Docs: https://meshparty.readthedocs.io/
 Library for running skeletonization that integrates the chunkedgraph level2 graph, and the l2cache. 
 Repo: https://github.com/AllenInstitute/pcg_skel
 Docs: https://github.com/AllenInstitute/pcg_skel/blob/master/README.md
+
+
+## CAVE-adjacent Tools
+
+These tools integrate with CAVE and are useful for CAVE users. They are developed and maintained by members of the community and not the CAVE team.
+
+### CloudVolume
+Python library for accessing images, segmentation, meshes and skeletons from precomputed and CAVE (i.e. graphene protocol) sources. 
+Repo: https://github.com/seung-lab/cloud-volume
+Docs: https://github.com/seung-lab/cloud-volume/blob/master/README.md
 
 ### Navis
 Python library wrapped around many other libraries that gives analysis tools for analyzing neurons. Integrates with cloud-volume and caveclient. Focused mostly on fly neurons, but provides general blender integration for example. 
