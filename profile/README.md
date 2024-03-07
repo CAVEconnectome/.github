@@ -13,7 +13,7 @@ A service for controlling authorization on top of authentication provided by Goo
 We deploy a second version of auth as "sticky" auth which has stick_sessions turned on. This is useful for certain operations that require sticky sessions, such as the flask-admin interface, whereas the other pods for auth do not require it and can distribute traffic more easily. There are no code base changes, only deployment changes.
 
 #### Schema
-A service for storing/serving presently supported annotation schemas.  Note this is also a library that is utilized by AnnotationEngine and MaterializationEngine to generate database schemas. [Repository](https://www.github.com/seung-lab/EMAnnotationschemas)
+A service for storing/serving presently supported annotation schemas.  Note this is also a library that is utilized by AnnotationEngine and MaterializationEngine to generate database schemas. [Repository](https://www.github.com/CAVEconnectome/EMAnnotationschemas)
 
 #### Jsonstateserver
 A service for posting and retrieving json states. Intended to provide support for neuroglancer link shortening. Backed by Google Datastore (future version to place json in bucket storage). [Repository](https://github.com/seung-lab/NeuroglancerJsonServer)
