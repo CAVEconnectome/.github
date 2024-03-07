@@ -19,10 +19,10 @@ A service for storing/serving presently supported annotation schemas.  Note this
 A service for posting and retrieving json states. Intended to provide support for neuroglancer link shortening. Backed by Google Datastore (future version to place json in bucket storage). [Repository](https://github.com/seung-lab/NeuroglancerJsonServer)
 
 #### AnnotationEngine
-A service for creating, reading and updating annotations on aligned volumes, independent of segmentation. Backed by postgreSQL and postGIS. [Repository](https://github.com/seung-lab/AnnotationEngine)
+A service for creating, reading and updating annotations on aligned volumes, independent of segmentation. Backed by postgreSQL and postGIS. [Repository](https://github.com/CAVEconnectome/AnnotationEngine)
 
 #### MaterializationEngine
-A service to keep a set of annotations up to date with a segmentation. Shared codebase also contains an API to query these annotations, and a worker to process these annotations.  Backed by postgreSQL and postGIS, workflow powered by celery with a redis broker. [Repository](https://github.com/seung-lab/MaterializationEngine)
+A service to keep a set of annotations up to date with a segmentation. Shared codebase also contains an API to query these annotations, and a worker to process these annotations.  Backed by postgreSQL and postGIS, workflow powered by celery with a redis broker. [Repository](https://github.com/CAVEconnectome/MaterializationEngine)
 
 #### Pychunkedgraph (PCG)
 A service to dynamically proofread and track a supervoxel graph of a segmentation.  Stores graph in a dynamic oct-tree backed by Google BigTable. Abbreviation PCG. Transmits activity via google pub-sub, presently consumed by Meshing and L2cache. [Repository](https://github.com/seung-lab/PyChunkedGraph)
@@ -34,10 +34,10 @@ A service to track, serve and regenerate meshes from a dynamic segmentation (sha
 A service to track, serve and regenerate summary statistics of “level 2” fragments of segmentation in the PCG. Has a worker component for calculating statistics,driven by google pub-sub. [Repository](https://github.com/seung-lab/PCGL2Cache)
 
 #### Guidebook
-A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG aware skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/AllenInstitute/guidebook)
+A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG aware skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnnectome/guidebook)
 
 #### Dash
-A flask app for serving dash apps that are protected by auth. Currently only serving dash-connectivity-viewer apps, provides interactive analysis UI of connectivity and cell types, along with dynamic neuroglancer link generation. [Repository](https://github.com/fcollman/dash_on_flask), [Repository](https://github.com/ceesem/dash-connectivity-viewer)
+A flask app for serving dash apps that are protected by auth. Currently only serving dash-connectivity-viewer apps, provides interactive analysis UI of connectivity and cell types, along with dynamic neuroglancer link generation. [Repository](https://github.com/CAVEconnectome/dash_on_flask), [Repository](https://github.com/ceesem/dash-connectivity-viewer)
 
 #### ProofreadingProgress
 An app designed for FlyWire to track proofreading progress. [Repository](https://github.com/seung-lab/ProofreadingProgress)
@@ -57,7 +57,7 @@ Python library for accessing various microservice endpoints. [Repository](https:
 Python library that wraps around cloudvolume to provide analysis and visualization functionality on top of meshes and skeleton. [Repository](https://github.com/sdorkenw/MeshParty), [Documentation](https://meshparty.readthedocs.io/)
 
 #### Pcg_skel
-Library for running skeletonization that integrates the chunkedgraph level2 graph, and the l2cache. [Repository](https://github.com/AllenInstitute/pcg_skel), [Documentation](https://github.com/AllenInstitute/pcg_skel/blob/master/README.md)
+Library for running skeletonization that integrates the chunkedgraph level2 graph, and the l2cache. [Repository](https://github.com/CAVEconnectome/pcg_skel), [Documentation](https://github.com/CAVEconnectome/pcg_skel/blob/master/README.md)
 
 
 ## CAVE-adjacent Tools
