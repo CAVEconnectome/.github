@@ -5,7 +5,7 @@ CAVE is a computational infrastructure for immediate and reproducible connectome
 ## Micro-Services
 
 #### Info 
-A service for storing basic metadata about data, presently datastack, aligned_volume, permission_group and table_mapping. [Repository](https://github.com/seung-lab/AnnotationFrameworkInfoService)
+A service for storing basic metadata about data, presently datastack, aligned_volume, permission_group and table_mapping. [Repository](https://github.com/CAVEconnectome/AnnotationFrameworkInfoService)
 
 #### Auth: Authentication and authorization 
 A service for controlling authorization on top of authentication provided by Google OAuth. [Repository](https://github.com/seung-lab/middle_auth)
@@ -31,13 +31,13 @@ A service to dynamically proofread and track a supervoxel graph of a segmentatio
 A service to track, serve and regenerate meshes from a dynamic segmentation (shared codebase with the PCG).  Has a worker component as well, driven by google pubsub. [Repository](https://github.com/seung-lab/PyChunkedGraph)
 
 #### L2Cache
-A service to track, serve and regenerate summary statistics of “level 2” fragments of segmentation in the PCG. Has a worker component for calculating statistics,driven by google pub-sub. [Repository](https://github.com/seung-lab/PCGL2Cache)
+A service to track, serve and regenerate summary statistics of “level 2” fragments of segmentation in the PCG. Has a worker component for calculating statistics,driven by google pub-sub. [Repository](https://github.com/CAVEconnectome/PCGL2Cache)
 
 #### Guidebook
-A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG aware skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnnectome/guidebook)
+A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG awfare skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnnectome/guidebook)
 
 #### Dash
-A flask app for serving dash apps that are protected by auth. Currently only serving dash-connectivity-viewer apps, provides interactive analysis UI of connectivity and cell types, along with dynamic neuroglancer link generation. [Repository](https://github.com/CAVEconnectome/dash_on_flask), [Repository](https://github.com/ceesem/dash-connectivity-viewer)
+A flask app for serving dash apps that are protected by auth. Currently only serving dash-connectivity-viewer apps, provides interactive analysis UI of connectivity and cell types, along with dynamic neuroglancer link generation. [Repository](https://github.com/CAVEconnectome/dash_on_flask), [Repository](https://github.com/CAVEconnectome/dash-connectivity-viewer)
 
 #### ProofreadingProgress
 An app designed for FlyWire to track proofreading progress. [Repository](https://github.com/seung-lab/ProofreadingProgress)
@@ -51,7 +51,7 @@ This is a deprecated service for redirecting traffic to a google bucket which is
 ## Access Tools
 
 #### CaveClient
-Python library for accessing various microservice endpoints. [Repository](https://github.com/seung-lab/CAVEclient), [Documentation](https://caveclient.readthedocs.io/)
+Python library for accessing various microservice endpoints. [Repository](https://github.com/CAVEconnectome/CAVEclient), [Documentation](https://caveclient.readthedocs.io/)
 
 #### MeshParty
 Python library that wraps around cloudvolume to provide analysis and visualization functionality on top of meshes and skeleton. [Repository](https://github.com/sdorkenw/MeshParty), [Documentation](https://meshparty.readthedocs.io/)
