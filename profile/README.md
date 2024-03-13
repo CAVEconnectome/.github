@@ -51,7 +51,7 @@ This is a deprecated service for redirecting traffic to a google bucket which is
 ## Access Tools
 
 #### CaveClient
-Python library for accessing various microservice endpoints. [Repository](https://github.com/CAVEconnectome/CAVEclient), [Documentation](https://caveclient.readthedocs.io/)
+Python library for accessing various microservice endpoints. [Repository](https://github.com/CAVEconnectome/CAVEclient), [Documentation](https://caveconnectome.github.io/CAVEclient/)
 
 #### MeshParty
 Python library that wraps around cloudvolume to provide analysis and visualization functionality on top of meshes and skeleton. [Repository](https://github.com/sdorkenw/MeshParty), [Documentation](https://meshparty.readthedocs.io/)
