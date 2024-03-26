@@ -48,6 +48,11 @@ TBD. [Repository](https://github.com/seung-lab/ProofreadingManagement) (not publ
 #### Proxy Map
 This is a deprecated service for redirecting traffic to a google bucket which is not publicly readable. Requests are rerouted to a configurable set of google buckets, with an authorization header that is attached by the server to allow the user to get access to the bucket. The resulting data is simply forwarded back to the user. Connections to these endpoints are protected by the authorization service and so access can be limited in this way. Allows neuroglancer communication. [Repository](https://github.com/seung-lab/middle_auth_proxy) (not public repo)
 
+## Libraries 
+
+#### DynamicAnnotationDB
+[Repository](https://github.com/CAVEconnectome/DynamicAnnotationDB)
+
 ## Access Tools
 
 #### CaveClient
@@ -58,6 +63,7 @@ Python library that wraps around cloudvolume to provide analysis and visualizati
 
 #### Pcg_skel
 Library for running skeletonization that integrates the chunkedgraph level2 graph, and the l2cache. [Repository](https://github.com/CAVEconnectome/pcg_skel), [Documentation](https://github.com/CAVEconnectome/pcg_skel/blob/master/README.md)
+
 
 
 ## CAVE-adjacent Tools
