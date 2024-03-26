@@ -34,7 +34,7 @@ A service to track, serve and regenerate meshes from a dynamic segmentation (sha
 A service to track, serve and regenerate summary statistics of “level 2” fragments of segmentation in the PCG. Has a worker component for calculating statistics,driven by google pub-sub. [Repository](https://github.com/CAVEconnectome/PCGL2Cache)
 
 #### Guidebook
-A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG awfare skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnnectome/guidebook)
+A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG awfare skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnectome/guidebook)
 
 #### Dash
 A flask app for serving dash apps that are protected by auth. Currently only serving dash-connectivity-viewer apps, provides interactive analysis UI of connectivity and cell types, along with dynamic neuroglancer link generation. [Repository](https://github.com/CAVEconnectome/dash_on_flask), [Repository](https://github.com/CAVEconnectome/dash-connectivity-viewer)
