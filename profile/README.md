@@ -85,4 +85,4 @@ Python library wrapped around many other libraries that gives analysis tools for
 
 ## Deployment
 
-CAVE uses kubernetes for deployment. We developed a bash script based system of templates and config files to deploy CAVE. [Repository](https://github.com/seung-lab/CAVEdeployment), [Instructions](https://docs.google.com/document/d/1C110QZEWdE4NnAIR7HLStKhff3d4Ha60VJ_W09akj3c/edit?usp=sharing)
+CAVE uses kubernetes for deployment. We developed a bash script based system of templates and config files to deploy CAVE. [Repository](https://github.com/CAVEconnectome/CAVEdeployment), [Instructions](https://docs.google.com/document/d/1C110QZEWdE4NnAIR7HLStKhff3d4Ha60VJ_W09akj3c/edit?usp=sharing)
