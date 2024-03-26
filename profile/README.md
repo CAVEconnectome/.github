@@ -51,7 +51,14 @@ This is a deprecated service for redirecting traffic to a google bucket which is
 ## Libraries 
 
 #### DynamicAnnotationDB
+Interface library for AnnotationEngine and MaterializationEngine to interface with SQLalchemy based dynamic databases. 
 [Repository](https://github.com/CAVEconnectome/DynamicAnnotationDB)
+
+
+#### nglui
+Library for automating creation of neuroglancer links from annotations as dataframes, wrapper over neuroglancer python.
+[Repository](https://github.com/CAVEconnectome/nglui
+
 
 ## Access Tools
 
