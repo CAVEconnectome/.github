@@ -57,7 +57,7 @@ Interface library for AnnotationEngine and MaterializationEngine to interface wi
 
 #### nglui
 Library for automating creation of neuroglancer links from annotations as dataframes, wrapper over neuroglancer python.
-[Repository](https://github.com/CAVEconnectome/nglui
+[Repository](https://github.com/CAVEconnectome/nglui)
 
 
 ## Access Tools
