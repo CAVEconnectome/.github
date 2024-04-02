@@ -8,7 +8,7 @@ CAVE is a computational infrastructure for immediate and reproducible connectome
 A service for storing basic metadata about data, presently datastack, aligned_volume, permission_group and table_mapping. [Repository](https://github.com/CAVEconnectome/AnnotationFrameworkInfoService)
 
 #### MiddleAuth: Authentication and authorization 
-A service for controlling authorization on top of authentication provided by Google OAuth. [Repository](https://github.com/seung-lab/middle_auth)
+A service for controlling authorization on top of authentication provided by Google OAuth. [Repository](https://github.com/CAVEconnectome/middle_auth)
 
 We deploy a second version of auth as "sticky" auth which has stick_sessions turned on. This is useful for certain operations that require sticky sessions, such as the flask-admin interface, whereas the other pods for auth do not require it and can distribute traffic more easily. There are no code base changes, only deployment changes.
 
