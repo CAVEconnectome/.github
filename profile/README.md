@@ -16,7 +16,7 @@ We deploy a second version of auth as "sticky" auth which has stick_sessions tur
 A service for storing/serving presently supported annotation schemas.  Note this is also a library that is utilized by AnnotationEngine and MaterializationEngine to generate database schemas. [Repository](https://www.github.com/CAVEconnectome/EMAnnotationschemas)
 
 #### Jsonstateserver
-A service for posting and retrieving json states. Intended to provide support for neuroglancer link shortening. Backed by Google Datastore (future version to place json in bucket storage). [Repository](https://github.com/seung-lab/NeuroglancerJsonServer)
+A service for posting and retrieving json states. Intended to provide support for neuroglancer link shortening. Backed by Google Datastore (future version to place json in bucket storage). [Repository](https://github.com/CAVEconnectome/NeuroglancerJsonServer)
 
 #### AnnotationEngine
 A service for creating, reading and updating annotations on aligned volumes, independent of segmentation. Backed by postgreSQL and postGIS. [Repository](https://github.com/CAVEconnectome/AnnotationEngine)
