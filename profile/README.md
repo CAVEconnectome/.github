@@ -33,6 +33,9 @@ A service to track, serve and regenerate meshes from a dynamic segmentation (sha
 #### L2Cache
 A service to track, serve and regenerate summary statistics of “level 2” fragments of segmentation in the PCG. Has a worker component for calculating statistics,driven by google pub-sub. [Repository](https://github.com/CAVEconnectome/PCGL2Cache)
 
+#### SkeletonService
+A service to generate, cache, and serve skeletons. A variety of return formats are supported. Both a REST and CAVEclient UI or provided, in addition to an asynchronous message-based UI. [Repository](https://github.com/CAVEconnectome/SkeletonService)
+
 #### Guidebook
 A flask app service for creating neuroglancer links with annotation points to guide proofreaders to tips and branches. Guidebook utilizes PCG awfare skeletonization procedures via pcg_skel (see below). [Repository](https://github.com/CAVEconnectome/guidebook)
 
